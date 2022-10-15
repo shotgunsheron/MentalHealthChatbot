@@ -1,0 +1,108 @@
+/*
+ 
+ 
+*{
+   margin-left: 10rem;
+}
+  #chatbox{
+   width: 100em;
+   max-width: 50em;
+   height: 70vh;
+   overflow-x: auto;
+   border: 2px solid black;
+   position: relative;
+   text-align: center;
+   align-items: center;
+  
+ 
+ 
+ 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   /* word-break:  no-break;
+ }
+ 
+ #chatInput{
+   border: 2px solid rgb(0, 0, 0);
+   width: 30em;
+   height: 1.5em;
+   margin-left: 19rem;
+ }
+ 
+.botchat, .userChat{
+   border-bottom-right-radius: 5rem;
+   border-top-left-radius: 2rem;
+   border-bottom-left-radius: 2rem;
+ 
+   display: inline-block;
+   overflow-wrap: break-word;
+ 
+   padding: 0.5em 1em 0.5em 1em;
+   max-width: 8em;
+ 
+   margin: 2.5em;
+}
+ 
+.botchat{
+background-color: orange;
+border: 1px solid rgb(71, 70, 70);
+ 
+grid-column-start: 2;
+grid-column-end: 3;
+ 
+/* padding-right: 1em;
+padding-left: 0.5em; *\/
+ 
+margin-left: 20em;
+}
+ 
+.userChat{
+   background-color: lightgreen;
+   border: 1px solid rgb(4, 25, 82);
+ 
+   /* padding-right: 1em;
+   padding-left: 0.5em; *\/
+ 
+   margin-left: 1em;
+ 
+   grid-column-start: 1;
+   grid-column-end: 2;
+ 
+   position: absolute;
+   left: 0;
+}
+*/
+ 
+*{
+    margin-left: 1rem !important;
+ }
+  
+ .botchat, .userChat{
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+     display: inline-block;
+    overflow-wrap: break-word;
+     padding: 0.5em 1em 0.5em 1em;
+    max-width: 8em;
+     margin-bottom: 1.5em;
+  }
+   .botchat{
+    background-color: cornsilk;
+    border: 1px solid rgb(71, 70, 70);
+     /* padding-right: 1em;
+    padding-left: 0.5em; */
+     margin-left: 20em;
+  }
+   .userChat{
+    background-color: lightskyblue;
+    border: 1px solid rgb(4, 25, 82);
+     /* padding-right: 1em;
+    padding-left: 0.5em; */
+     margin-left: 1em;
+     position: absolute;
+    left: 0;
+  }
+ 
+ 
+ 
